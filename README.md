@@ -1,4 +1,4 @@
-# Solidity Template
+# Aave Voting Airdrop
 
 Uses
 
@@ -9,8 +9,7 @@ Uses
 - [Solhint](https://github.com/protofire/solhint): linter
 - [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
 
-This is a GitHub template, which means you can reuse it as many times as you want. You can do that by clicking the "Use this
-template" button at the top of the page.
+In its current implementation, the Aave airdrop contract is vulnerable to a sybil attack. In a real-world scenario, user identity should be validated via some trusted mechanism (i.e email or twitter) before a user is eligible to receive a voting power airdrop. 
 
 ## Usage
 
